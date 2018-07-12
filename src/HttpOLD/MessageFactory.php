@@ -17,6 +17,13 @@ namespace JonnyW\PhantomJs\Http;
 class MessageFactory implements MessageFactoryInterface
 {
     /**
+     * Shared Instance
+     *
+     * @var \JonnyW\PhantomJs\Http\MessageFactory
+     */
+    protected static $instance;
+
+    /**
      * Internal constructor.
      */
     public function __construct()

@@ -13,6 +13,7 @@ use JonnyW\PhantomJs\Procedure\ProcedureLoaderInterface;
 use JonnyW\PhantomJs\Procedure\ProcedureCompilerInterface;
 use JonnyW\PhantomJs\IO\InputInterface;
 use JonnyW\PhantomJs\IO\OutputInterface;
+use JonnyW\PhantomJs\DependencyInjection\ServiceContainer;
 
 /**
  * PHP PhantomJs.
@@ -24,7 +25,7 @@ class Client implements ClientInterface
     /**
      * Client.
      *
-     * @var \JonnyW\PhantomJs\Client\ClientInterface
+     * @var \JonnyW\PhantomJs\ClientInterface
      */
     protected static $instance;
 
@@ -74,7 +75,7 @@ class Client implements ClientInterface
     /**
      * Get singleton instance.
      *
-     * @return \JonnyW\PhantomJs\Client\ClientInterface
+     * @return \JonnyW\PhantomJs\ClientInterface
      */
     public static function getInstance()
     {

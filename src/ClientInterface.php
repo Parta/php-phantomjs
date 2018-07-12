@@ -22,7 +22,7 @@ interface ClientInterface
     /**
      * Get singleton instance.
      *
-     * @return \JonnyW\PhantomJs\Client\ClientInterface
+     * @return \JonnyW\PhantomJs\ClientInterface
      */
     public static function getInstance();
 
