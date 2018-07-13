@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 
-namespace JonnyW\PhantomJs\Http;
+namespace JonnyW\PhantomJs\HttpOLD;
 
 use JonnyW\PhantomJs\Exception\NotWritableException;
 
